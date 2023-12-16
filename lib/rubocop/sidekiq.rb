@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "sidekiq/version"
+require_relative 'sidekiq/version'
 
 module RuboCop
+  # RuboCop Sidekiq project namespace
   module Sidekiq
     class Error < StandardError; end
     # Your code goes here...
@@ -13,4 +14,3 @@ module RuboCop
     private_constant(:CONFIG_DEFAULT, :PROJECT_ROOT)
   end
 end
-
