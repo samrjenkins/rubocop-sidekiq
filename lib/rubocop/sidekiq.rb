@@ -3,6 +3,7 @@
 require_relative 'sidekiq/version'
 
 module RuboCop
+  # RuboCop Sidekiq project namespace
   module Sidekiq
     class Error < StandardError; end
     # Your code goes here...
